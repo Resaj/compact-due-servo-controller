@@ -1,4 +1,4 @@
-# zord-project
+# Zord project
 Mini-humanoid controlled by PS3 controller, with bluetooth dongle in the native port of the microcontroller, 20 servomotor signals, UART and I2C for bus servos like Dynamixel.
 
 <p align="center">
