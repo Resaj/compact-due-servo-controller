@@ -3,7 +3,7 @@
   (general
     (links 293)
     (no_connects 0)
-    (area 119.481857 67.15 192.428572 137.937001)
+    (area 124.949999 79.949999 175.050001 130.050001)
     (thickness 1.6)
     (drawings 6)
     (tracks 1475)
@@ -1540,7 +1540,7 @@
       (net 19 MOSI))
     (pad 6 thru_hole circle (at 2 4 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.00mm.wrl
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_2x03_Pitch2.00mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1567,7 +1567,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.6525 0 270) (size 0.762 1.27) (layers B.Cu B.Paste B.Mask)
       (net 1 VCC))
-    (model "Humanoide.3dshapes/diodo SS1P3L.wrl"
+    (model "${KIPRJMOD}/shapes3D/diodo SS1P3L.wrl"
       (at (xyz 0.077 0.045 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -1644,7 +1644,7 @@
       (net 21 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 1.055 0 270) (size 0.59 0.45) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model Diodes_SMD.3dshapes/SOD-323.wrl
+    (model ${KIPRJMOD}/shapes3D/SOD-323.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1934,7 +1934,7 @@
       (net 28 "Net-(F1-Pad1)"))
     (pad 2 smd rect (at 0 -2.1 270) (size 3.2 1.5) (layers B.Cu B.Paste B.Mask)
       (net 3 +5V))
-    (model "Humanoide.3dshapes/PTC 500mA.wrl"
+    (model "${KIPRJMOD}/shapes3D/PTC 500mA.wrl"
       (at (xyz -0.06378 -0.08956699999999999 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 270))
@@ -1954,7 +1954,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 0 -2.1 180) (size 3.2 1.5) (layers B.Cu B.Paste B.Mask)
       (net 29 "Net-(F2-Pad2)"))
-    (model "Humanoide.3dshapes/PTC 500mA.wrl"
+    (model "${KIPRJMOD}/shapes3D/PTC 500mA.wrl"
       (at (xyz -0.06378 -0.08956699999999999 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 270))
@@ -2084,9 +2084,9 @@
       (net 43 "Net-(L1-Pad1)"))
     (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 4 GND))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model ${KIPRJMOD}/shapes3D/SMD-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2113,9 +2113,9 @@
       (net 6 +3V3))
     (pad 2 smd rect (at 1.35 0 180) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 13 "Net-(C21-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model ${KIPRJMOD}/shapes3D/SMD-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2142,9 +2142,9 @@
       (net 12 VDDOUT))
     (pad 2 smd rect (at 1.35 0 180) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 14 "Net-(C28-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model ${KIPRJMOD}/shapes3D/SMD-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2171,9 +2171,9 @@
       (net 6 +3V3))
     (pad 2 smd rect (at 1.35 0 180) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 15 VDDUTMI))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model ${KIPRJMOD}/shapes3D/SMD-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2200,9 +2200,9 @@
       (net 6 +3V3))
     (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 16 VDDANA))
-    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (model ${KIPRJMOD}/shapes3D/SMD-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2590,7 +2590,7 @@
       (net 43 "Net-(L1-Pad1)"))
     (pad 6 smd rect (at 3.75 2.85) (size 2.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 43 "Net-(L1-Pad1)"))
-    (model Humanoide.3dshapes/micro-USB-smd.wrl
+    (model ${KIPRJMOD}/shapes3D/micro-USB-smd.wrl
       (at (xyz -3.857874 0.012 -0.016))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 0))
@@ -3064,7 +3064,7 @@
       (net 66 SDA))
     (pad 4 thru_hole oval (at 7.62 0) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 67 SCL))
-    (model Humanoide.3dshapes/molex-4-pines.wrl
+    (model ${KIPRJMOD}/shapes3D/molex-4-pines.wrl
       (at (xyz 0.15 0 0.063))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 180))
@@ -3118,7 +3118,7 @@
       (net 68 RX1))
     (pad 4 thru_hole oval (at 7.62 0) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 69 TX1))
-    (model Humanoide.3dshapes/molex-4-pines.wrl
+    (model ${KIPRJMOD}/shapes3D/molex-4-pines.wrl
       (at (xyz 0.15 0 0.063))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 180))
@@ -3183,7 +3183,7 @@
       (net 4 GND))
     (pad 5 thru_hole circle (at 6.57 3.58) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 4 GND))
-    (model Humanoide.3dshapes/USB_A_SMD.wrl
+    (model ${KIPRJMOD}/shapes3D/USB_A_SMD.wrl
       (at (xyz 0 -0.23 0.08))
       (scale (xyz 3 3 3))
       (rotate (xyz 270 0 0))
@@ -4020,7 +4020,7 @@
       (net 7 RESET))
     (pad 2 smd rect (at 4.60243 0.00232 270) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model Humanoide.3dshapes/smd_push.wrl
+    (model ${KIPRJMOD}/shapes3D/smd_push.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4529,7 +4529,7 @@
       (net 120 "Net-(U2-Pad35)"))
     (pad 3 smd rect (at 1.2 0 270) (size 0.6 2) (layers F.Cu F.Paste F.Mask)
       (net 121 "Net-(U2-Pad36)"))
-    (model "Humanoide.3dshapes/resonador CSTCC.wrl"
+    (model "${KIPRJMOD}/shapes3D/resonador CSTCC.wrl"
       (at (xyz -0.06299 0.0256 0))
       (scale (xyz 0.17 0.1778 0.170603))
       (rotate (xyz -90 0 0))
@@ -4559,7 +4559,7 @@
       (net 10 "Net-(C11-Pad1)"))
     (pad 2 thru_hole circle (at 0.7493 0 270) (size 1.00076 1.00076) (drill 0.59944) (layers *.Cu *.Mask F.SilkS)
       (net 9 "Net-(C10-Pad1)"))
-    (model "Humanoide.3dshapes/Crystal 32kHz.wrl"
+    (model "${KIPRJMOD}/shapes3D/Crystal 32kHz.wrl"
       (at (xyz 0.04 0.275 -0.08))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
