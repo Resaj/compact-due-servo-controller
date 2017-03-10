@@ -334,7 +334,7 @@ Transform {
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/diodo SS1P3L.wrl"
+      url "shapes3D/SS1P3L.wrl"
     } ]
   }
 Transform {
@@ -413,21 +413,21 @@ Transform {
     } ]
   }
 Transform {
-  rotation 1.34e-16 0.707 -0.707 3.14
-  translation 139.98 -121.39 -0.8
+  rotation -0.577 0.577 0.577 4.19
+  translation 137.7 -123.02 -0.8
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/PTC 500mA.wrl"
+      url "shapes3D/mf-msmf050.wrl"
     } ]
   }
 Transform {
-  rotation 0.577 0.577 -0.577 4.19
-  translation 154.56 -124.78 -0.8
+  rotation 4.33e-17 0.707 0.707 3.14
+  translation 152.94 -122.51 -0.8
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/PTC 500mA.wrl"
+      url "shapes3D/mf-msmf050.wrl"
     } ]
   }
 Transform {
@@ -442,46 +442,46 @@ Transform {
 Transform {
   rotation 1 0 0 3.14
   translation 137.06 -120.09 -0.8
-  scale 0.254 0.254 0.254
+  scale 1 1 1
   children [
     Inline {
-      url "shapes3D/SMD-0805.wrl"
+      url "shapes3D/L_0805.wrl"
     } ]
   }
 Transform {
   rotation 6.12e-17 1 6.12e-17 3.14
   translation 162.97 -112.6 -0.8
-  scale 0.254 0.254 0.254
+  scale 1 1 1
   children [
     Inline {
-      url "shapes3D/SMD-0805.wrl"
+      url "shapes3D/L_0805.wrl"
     } ]
   }
 Transform {
   rotation 6.12e-17 1 6.12e-17 3.14
   translation 143.16 -112.73 -0.8
-  scale 0.254 0.254 0.254
+  scale 1 1 1
   children [
     Inline {
-      url "shapes3D/SMD-0805.wrl"
+      url "shapes3D/L_0805.wrl"
     } ]
   }
 Transform {
   rotation 6.12e-17 1 6.12e-17 3.14
   translation 148.11 -112.73 -0.8
-  scale 0.254 0.254 0.254
+  scale 1 1 1
   children [
     Inline {
-      url "shapes3D/SMD-0805.wrl"
+      url "shapes3D/L_0805.wrl"
     } ]
   }
 Transform {
   rotation 1 0 0 3.14
   translation 153.96 -112.22 -0.8
-  scale 0.254 0.254 0.254
+  scale 1 1 1
   children [
     Inline {
-      url "shapes3D/SMD-0805.wrl"
+      url "shapes3D/L_0805.wrl"
     } ]
   }
 Transform {
@@ -557,12 +557,12 @@ Transform {
     } ]
   }
 Transform {
-  rotation -1 0 0 4.71
-  translation 39.71 -125.25 0.3936
+  rotation 0 0 -1 4.71
+  translation 137.7 -128.22 0.8
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/micro-USB-smd.wrl"
+      url "shapes3D/USB-micro-B.wrl"
     } ]
   }
 Transform {
@@ -678,7 +678,7 @@ Transform {
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/molex-4-pines.wrl"
+      url "shapes3D/22-29-2041.wrl"
     } ]
   }
 Transform {
@@ -687,7 +687,7 @@ Transform {
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/molex-4-pines.wrl"
+      url "shapes3D/22-29-2041.wrl"
     } ]
   }
 Transform {
@@ -700,9 +700,9 @@ Transform {
     } ]
   }
 Transform {
-  rotation -1 0 0 4.71
-  translation 159.29 -129.75 2.832
-  scale 7.62 7.62 7.62
+  rotation 0 -1 0 3.14
+  translation 159.29 -129.75 2.197
+  scale 6.4516 6.4516 6.4516
   children [
     Inline {
       url "shapes3D/USB_A_SMD.wrl"
@@ -989,21 +989,21 @@ Transform {
     } ]
   }
 Transform {
-  rotation -0.577 0.577 0.577 4.19
-  translation 137.97 -112.14 0.8
-  scale 0.4318 0.45161 0.43333
+  rotation 0 0 1 4.71
+  translation 137.32 -113.74 0.8
+  scale 1016 1016 1016
   children [
     Inline {
-      url "shapes3D/resonador CSTCC.wrl"
+      url "shapes3D/CSTCE.wrl"
     } ]
   }
 Transform {
-  rotation -2.3e-17 0.707 0.707 3.14
-  translation 155.73 -119.97 -1.232
+  rotation 0.577 -0.577 0.577 4.19
+  translation 150.22 -118.95 2.324
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/Crystal 32kHz.wrl"
+      url "shapes3D/TC38H.wrl"
     } ]
   }
 Transform {
