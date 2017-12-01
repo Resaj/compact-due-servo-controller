@@ -1,10 +1,3 @@
-//************************* ¡¡¡IMPORTANT NOTE!!! *************************//
-// To use this program properly you need to change the parameter SERVOS_PER_TIMER.
-// This parameter indicates the number of servos which Arduino can controls with a timer.
-// SERVOS_PER_TIMER is in the file Servo.h. Change the value 12 to 16.
-
-// ¡¡¡ADAPTED TEMPORALLY FOR ARDUINO UNO!!!
-
 #include <Servo.h>
 #include "actuators.h"
 
@@ -12,23 +5,23 @@ void setup()
 {
   Serial.begin(115200);
 
-  servo_config(SHOULDER_L, 2);
-  servo_config(SHOULDER_R, 3);
-  servo_config(ARM_L, 4);
-  servo_config(ARM_R, 5);
-  servo_config(ELBOW_L, 6);
-  servo_config(ELBOW_R, 7);
-  servo_config(HIP_L, 8);
-  servo_config(HIP_R, 9);
-  servo_config(LEG_L, 10);
-  servo_config(LEG_R, 11);
-  servo_config(KNEE_L, 12);
-  servo_config(KNEE_R, 13);
+  servo_config(SHOULDER_L, 22);
+  servo_config(SHOULDER_R, 25);
+  servo_config(ARM_L, 26);
+  servo_config(ARM_R, 27);
+  servo_config(ELBOW_L, 28);
+  servo_config(ELBOW_R, 29);
+  servo_config(HIP_L, 30);
+  servo_config(HIP_R, 32);
+  servo_config(LEG_L, 33);
+  servo_config(LEG_R, 34);
+  servo_config(KNEE_L, 35);
+  servo_config(KNEE_R, 36);
 
-  servo_config(ANKLE_L, A0); //14
-  servo_config(ANKLE_R, A1); //15
-  servo_config(FOOT_L, A2); //16
-  servo_config(FOOT_R, A3); //17
+  servo_config(ANKLE_L, 37);
+  servo_config(ANKLE_R, 38);
+  servo_config(FOOT_L, 39);
+  servo_config(FOOT_R, 40);
 }
 
 void loop()
