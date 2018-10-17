@@ -1,14 +1,16 @@
 # Zord project
-This is a redesigned Arduino Due for the control of any humanoid or articulated robot, controlled by PS3 bluetooth controller, with bluetooth dongle in the native port of the SAM3 microcontroller, 20 servomotor signals, UART and I2C for bus servos like Dynamixel.
-
-This project has been migrated to a new repository with the same name, in [RAS organization](https://github.com/RobotAcquisitionSyndrome/ZordProject).
+This is a redesigned Arduino Due for the control of any humanoid or articulated robot, controlled by PS3 bluetooth controller, with bluetooth dongle in the native port of the SAM3 microcontroller, 20 servomotor signals, UART and I2C for bus servomotors.
 
 <p align="center">
-<img src="images/IMG_20161117_200236.jpg" width="300" align = "center">
+<img src="images/PCB_top.jpg" width="300" align = "center">
 </p>
 
 <p align="center">
-<img src="images/IMG_20161117_200304.jpg" width="300" align = "center">
+<img src="images/PCB_bottom.jpg" width="300" align = "center">
+</p>
+
+<p align="center">
+<img src="images/PCB_3D.png" width="300" align = "center">
 </p>
 
 ## Authors
